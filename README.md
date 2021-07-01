@@ -13,4 +13,6 @@ Kaggle Competition
  
 ## 3. Digit Recognizer ([link](https://www.kaggle.com/c/digit-recognizer))
  디지털 이미지로 표현된 숫자를 맞추는 문제입니다. 0~9까지의 숫자를 맞추는 다중분류 문제라고 볼수 있다.    
- Tensorflow를 이용해서 CNN기법을 활용해서 약 99점 이상의 정확도가 나왔다.
+ Kaggle에서 다른 사람들의 커널을 참고해서 실제로 Colab에서 적용해봤을때 가장 좋은 결과가 나온 경우가    
+ Convolution layer와 maxpooling layer를 조합한 모델에 imagedatagenerator를 이용한 데이터 생성 등을 활용해서    
+ LB score 99.4점 정도가 나왔다.
